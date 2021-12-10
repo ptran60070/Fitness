@@ -1,0 +1,37 @@
+//Buttons 
+%btn-shared {
+    text-transform: capitalize;
+    display: inline-block;
+    padding: .6rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+   
+  .btn {
+      
+    &-main, &-check {
+      @extend %btn-shared;
+      background: transparent;
+      border: solid 1px $orange;
+      color: $orange;
+    }
+  
+    &-main:hover,
+    &-check:hover {
+      background-color: $orange;
+      color: #fff;
+      transition: background-color .5s ease-out;
+    }
+  
+    &-stories {
+      @extend %btn-shared;
+      padding: .5rem .8rem;
+      font-size: 1rem;
+      background: transparent;
+      border: solid 1px #fff;
+      color: #fff;
+    }
+  
+  }
+  

@@ -1,0 +1,77 @@
+//Utilities
+.container {
+    max-width: $website-width;
+    padding: 0 1rem;
+    margin: auto;
+    overflow: hidden;
+  }
+ul {
+    list-style: none;
+}
+
+.py-3 {
+    padding-top: 3rem;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+img {
+    width: 100%;
+  }
+  
+.section-title
+{  
+    text-align: center;
+    color: #666;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1.3rem;
+}
+.bottom-line {
+    height: 2px;
+    width: 5rem;
+    background: $orange;
+    margin: .7rem auto 1rem auto;  
+  }
+
+.section-padding {
+    padding: 2.5rem 0rem 2.5rem 2.5rem;
+  }
+a.active-o,
+.active-o,
+header .navbar ul li a:hover, 
+#showcase .showcase-content h1 span.active-o {
+    color: $orange;
+}
+ 
+// Background
+.bg-orange {
+    background-color: $orange;
+    color: #fff;
+  }
+.bg-blue {
+    background-color: $blue;
+    color: #fff;
+}
+.bg-secondary {
+    background: #000;
+}
+.bg-primary {
+  background: #fff;
+  color: #666;
+}
+#showcase .showcase-content h1 span.active-b, 
+.active-b {
+    color: $blue;
+}
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+.text-center {
+    text-align: center;
+}
+
+
